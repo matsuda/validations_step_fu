@@ -4,6 +4,21 @@
 
 1つのモデルの入力フォームが複数のページにまたがる場合のvalidationsをDRYに保つためのRails 3プラグイン
 
+## installation
+
+### gem
+
+In your Gemfile, add this line
+
+    gem 'validations_step_fu'
+
+Then run bundle
+
+    $ bundle
+
+### Rails plguin
+
+    $ rails plugin install git://github.com/matsuda/validations_step_fu.git
 
 ## Example
 
